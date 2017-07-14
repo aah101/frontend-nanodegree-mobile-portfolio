@@ -1,3 +1,20 @@
+Steps to increase page speed of index.html
+
+1. minified CSS
+2. inlined the CSS 
+3. Added media for print css
+4. added async to js/perfmatters.js
+5. added async to http://www.google-analytics.com/analytics.js
+6. moved both js files to the end of the doc to prevent HTML parser blocking
+
+
+Steps to reduce FPS in Pizzeria
+
+1. optimised the for loop in changePizzaSizes slider function
+2. optimised the for loop in the updatePositions function
+3. reduced the number of pizzas in the DOM  
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
