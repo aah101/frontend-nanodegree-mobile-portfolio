@@ -496,7 +496,7 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
   //declared variable outside of the for loop
-  var cachedLength = items.length
+  var cachedLength = items.length;
   //declared scrollTop outside of the forLoop
   var scrollTop = document.body.scrollTop;
   //put all the items in an array to save creating them every time
