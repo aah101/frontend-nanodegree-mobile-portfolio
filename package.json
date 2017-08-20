@@ -1,0 +1,28 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "resize images",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aah101/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "ANDREW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aah101/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/aah101/frontend-nanodegree-mobile-portfolio#readme",
+  "dependencies": {
+    "grunt-responsive-images": "^1.10.1",
+    "image-min": "^0.3.2",
+    "imagemin": "^5.3.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-image-resize": "^1.0.0"
+  }
+}
