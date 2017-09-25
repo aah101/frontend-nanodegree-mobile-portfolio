@@ -477,7 +477,7 @@ window.performance.mark("mark_start_generating"); // collect timing data
 //removed randomPizzas out of the for-loop
 //redcued the numver of pizzas to change on screen
   var pizzasDiv = document.getElementById("randomPizzas");
-for (var i = 2; i < 9; i++) {
+for (var i = 2; i < 100; i++) {
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
